@@ -49,7 +49,7 @@ public class AlbumController {
 //    }
 
     /***
-     * Album分页搜索实现35355677666666666
+     * Album分页搜索实现35355677666
      * @param page:当前页
      * @param size:每页显示多少条
      * @return
