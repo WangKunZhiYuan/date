@@ -19,7 +19,7 @@ spring:
       matching-strategy: ant_path_matcher
 
   main:
-    allow-bean-definition-overriding: true #当遇到同样名字的时候，是否允许覆盖注册
+    allow-bean-definition-overriding: true #当遇到同样名字的时候，是否允许覆盖注册33333
     allow-circular-references: true
   rabbitmq:
     host: 127.0.0.1
