@@ -1,0 +1,25 @@
+server:
+  port: 10015
+spring:
+  application:
+    name: honglu
+  datasource:
+    url: jdbc:mysql://112.74.56.55:3306/china_databases?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 1234@AAbb
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  redis:
+    host: 112.74.56.55
+    port: 6379
+    password: 123456
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+  main:
+    allow-bean-definition-overriding: true #当遇到同样名字的时候，是否允许覆盖注册
+    allow-circular-references: true
+  rabbitmq:
+    host: 127.0.0.1
